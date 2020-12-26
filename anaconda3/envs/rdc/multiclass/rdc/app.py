@@ -13,12 +13,11 @@ from skimage.transform import resize
 import pickle5 as pickle
 from PIL import Image
 
-
-
 st.set_option('deprecation.showfileUploaderEncoding',False)
 st.title('Image Classifier using Machine Learning')
 st.text('Upload the Image')
 
+name='img_model.p'
 model=pickle.load(open('img_model.p','rb'))
 
 upload_file=st.file_uploader('Choose an image', type='jpg')
