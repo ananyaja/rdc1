@@ -17,8 +17,8 @@ st.set_option('deprecation.showfileUploaderEncoding',False)
 st.title('Image Classifier using Machine Learning')
 st.text('Upload the Image')
 
-name='img_model.p'
-model=pickle.load(open('img_model.p','rb'))
+model='img_model.p'
+model=pickle.load(open(model,'rb'))
 
 upload_file=st.file_uploader('Choose an image', type='jpg')
 if upload_file is not None:
