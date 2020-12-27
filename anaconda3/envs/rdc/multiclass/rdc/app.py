@@ -19,6 +19,7 @@ st.text('Upload the Image')
 
 file=open('img_model.p','r')
 model=pickle.load(file)
+file.close()
 
 upload_file=st.file_uploader('Choose an image', type='jpg')
 if upload_file is not None:
