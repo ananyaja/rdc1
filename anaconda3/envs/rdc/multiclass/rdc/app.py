@@ -17,7 +17,7 @@ st.set_option('deprecation.showfileUploaderEncoding',False)
 st.title('Image Classifier using Machine Learning')
 st.text('Upload the Image')
 
-file=open('img_model.p','r')
+file=open('img_model.p','rb')
 model=pickle.load(file)
 file.close()
 
