@@ -18,7 +18,7 @@ st.title('Image Classifier using Machine Learning')
 st.text('Upload the Image')
 
 file=open('img_model.p','rb')
-model=pickle.load(file)
+model=joblib.load(file)
 file.close()
 
 upload_file=st.file_uploader('Choose an image', type='jpg')
