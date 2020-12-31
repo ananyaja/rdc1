@@ -65,7 +65,7 @@ mistune==0.8.4
 mkl
 mkl-fft
 mkl-random
-intel mkl-service
+
 mypy-extensions==0.4.3
 nbclient
 nbconvert 
