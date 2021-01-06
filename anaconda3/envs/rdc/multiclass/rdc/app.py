@@ -5,7 +5,7 @@ Created on Tue Dec  1 12:37:23 2020
 @author: anany
 """
 
-import io
+
 import streamlit as st
 import numpy as np
 from skimage.io import imread
